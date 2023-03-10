@@ -9,7 +9,8 @@
     "test": "jest --passWithNoTests",
     "prettier:check": "npx prettier --check ./src",
     "prettier:fix": "npx prettier --write ./src",
-    "lint": "npx eslint ."
+    "lint": "npx eslint .",
+    "cmt": "npx git-cz"
   },
   "devDependencies": {
     "@types/jest": "^29.1.1",
