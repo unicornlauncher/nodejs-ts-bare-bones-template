@@ -32,11 +32,6 @@
     "ts-node": "^10.9.1",
     "typescript": "*"
   },
-  "config": {
-    "commitizen": {
-      "path": "npx git-cz"
-    }
-  },
   "lint-staged": {
     "*.{css,less,scss,html,json,jsx,js}": [
       "prettier --write ."
