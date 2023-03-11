@@ -24,6 +24,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Check formatting
+        run: npm run prettier:check
+
+      - name: Check code style
+        run: npm run lint
+
       - name: Build project
         run: npm run build
 
