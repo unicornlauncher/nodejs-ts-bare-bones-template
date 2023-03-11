@@ -55,13 +55,13 @@ In order to provide commit coherence between contributors, a set of commit rules
 
 To make sure the codebase remains clean and healthy, a set of pre-commit hooks were added. Each of them are described below.
 
-#### commit-msg
+#### Commit messages
 
-To make sure that commit messages remain compliant to the conventional commits convention, `commitlint` was configured to run at the `commit-msg` stage. It will fail the commit in case of a malformed message is detected.
+To make sure that commit messages remain compliant to the conventional commits convention, `commitlint` was configured. It will fail the commit in case we try to add a malformed message.
 
-#### pre-commit
+#### Static analysis and tests
 
-At the `pre-commit` stage, we're running a `prettier:check` (to detect malformed files), ESLint (to detect code style violations) and all the unit tests (to make sure the test suite is green and consistent).
+We're also running a `prettier:check` to detect malformed files, ESLint to detect code style violations, and all the unit tests to make sure the test suite is green and consistent.
 
 ## Testing
 
