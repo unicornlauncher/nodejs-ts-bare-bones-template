@@ -1,7 +1,5 @@
 export function greetings(name: string): string {
-  const msg = `Hello, ${name}`;
-  console.log(msg);
-  return msg;
+  return `Hello, ${name}`;
 }
 
-greetings('world!');
+console.log(greetings('world!'));
