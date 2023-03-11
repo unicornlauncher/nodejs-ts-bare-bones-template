@@ -42,5 +42,10 @@
     ],
     "*.js": "eslint --fix"
   },
+  "engines": {
+    "npm": ">=9.3.0",
+    "node": ">=16.14.0",
+    "yarn": ">=1.22.19"
+  },
   "dependencies": {}
 }
