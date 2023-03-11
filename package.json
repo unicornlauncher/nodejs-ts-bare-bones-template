@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
     "build": "rimraf ./dist && tsc",
     "test": "jest --passWithNoTests",
     "prettier:check": "npx prettier --check ./src",
