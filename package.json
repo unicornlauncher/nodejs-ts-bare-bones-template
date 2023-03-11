@@ -13,6 +13,8 @@
     "cmt": "npx git-cz"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "@types/jest": "^29.1.1",
     "@types/node": "^18.8.2",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
@@ -38,5 +40,6 @@
       "prettier --write ."
     ],
     "*.js": "eslint --fix"
-  }
+  },
+  "dependencies": {}
 }
