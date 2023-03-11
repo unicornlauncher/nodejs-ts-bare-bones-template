@@ -19,7 +19,7 @@ module.exports = {
     },
     docs: {
       description: 'Documentation only changes',
-      emoji: '📄',
+      emoji: '🔖',
       value: 'docs',
     },
     feat: {
@@ -39,7 +39,7 @@ module.exports = {
     },
     refactor: {
       description: 'A code change that neither fixes a bug or adds a feature',
-      emoji: '💡',
+      emoji: '♻️',
       value: 'refactor',
     },
     release: {
@@ -49,12 +49,12 @@ module.exports = {
     },
     style: {
       description: 'Markup, white-space, formatting, missing semi-colons...',
-      emoji: '💄',
+      emoji: '🎨',
       value: 'style',
     },
     test: {
       description: 'Adding tests',
-      emoji: '💍',
+      emoji: '🧪',
       value: 'test',
     },
     messages: {
