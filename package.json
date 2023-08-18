@@ -10,7 +10,7 @@
     "test": "jest ./src --passWithNoTests",
     "prettier:check": "npx prettier --check ./src",
     "prettier:fix": "npx prettier --write ./src",
-    "lint": "npx eslint .",
+    "lint": "npx eslint src/**/*.ts",
     "cmt": "npx git-cz"
   },
   "devDependencies": {
@@ -22,7 +22,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.43.0",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-config-standard-with-typescript": "^37.0.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.0.0",
