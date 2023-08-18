@@ -10,7 +10,7 @@
     "test": "jest ./src --passWithNoTests",
     "prettier:check": "npx prettier --check ./src",
     "prettier:fix": "npx prettier --write ./src",
-    "lint": "npx eslint .",
+    "lint": "npx eslint src/**/*.ts",
     "cmt": "npx git-cz"
   },
   "devDependencies": {
