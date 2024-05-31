@@ -3,7 +3,7 @@
 [![Minimum node.js version](https://img.shields.io/badge/nodejs-16.14.0-GREEN.svg)](https://github.com/unicornlauncher/nodejs-ts-bare-bones-template)
 [![Minimum yarn version](https://img.shields.io/badge/yarn-1.22.19-GREEN.svg)](https://github.com/unicornlauncher/nodejs-ts-bare-bones-template)
 
-# NodeJS + TS bare bones template
+# NodeJS + TS bare-bones template
 
 This NodeJS template includes the bare minimum setup to help you get started. We didn't try to guess what you are going to do based on this template, so we didn't configure any web-server or cron-job related tooling (although you can do it quite easily based on what's already in place). Nevertheless, If you want to build an express app, please check out our [nodejs-ts-express](https://github.com/unicornlauncher/nodejs-ts-express-template) template.
 
